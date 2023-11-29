@@ -1,0 +1,18 @@
+<html>
+<body>
+	<form action="/messages/send" method="post">
+		receiver's token<br>
+		<textarea rows="3" cols="100" name="receiverToken" id="receiverToken"></textarea><br>
+		<button type="button" onClick="document.getElementById('receiverToken').value=''">clear</button>
+		<br><br>
+		message<br>
+		<input type="text" size="100" name="body"><br>
+		<br>
+		<button type="submit">SEND</button>
+	</form>
+	<script>
+		const parsedHash = new URLSearchParams(window.location.search.substring(1));
+		document.getElementById("receiverToken").value = parsedHash.get("token");
+	</script>
+</body>
+</html>
