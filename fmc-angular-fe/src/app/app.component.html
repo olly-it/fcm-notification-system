@@ -1,0 +1,9 @@
+TOKEN: {{token}}<br>
+<button (click)="clipboardToken()">Copy token to clipdoard</button><br><br>
+<div *ngIf="message;">
+  MESSAGE:<br>
+  <textarea rows="10" cols="50" [contentEditable]="false">{{ jsonToString(message.data) }}</textarea>
+</div>
+<div *ngIf="!message;">
+  No Message Arrived
+</div>
