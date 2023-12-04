@@ -8,7 +8,7 @@ import { getMessaging, getToken, onMessage } from "firebase/messaging";
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'fmc-angular-fe';
+  title = 'fcm-angular-fe';
   message:any = null;
   token:any = null;
   constructor() {}

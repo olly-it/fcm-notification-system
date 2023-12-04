@@ -1,4 +1,4 @@
-package it.olly.fmcbe.messaging;
+package it.olly.fcmbe.messaging;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import it.olly.fmcbe.messaging.fb.FirebaseUtils;
+import it.olly.fcmbe.messaging.fb.FirebaseUtils;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 

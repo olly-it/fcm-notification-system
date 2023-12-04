@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "fmc-angular-fe": {
+    "fcm-angular-fe": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/fmc-angular-fe",
+            "outputPath": "dist/fcm-angular-fe",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "fmc-angular-fe:build:production"
+              "browserTarget": "fcm-angular-fe:build:production"
             },
             "development": {
-              "browserTarget": "fmc-angular-fe:build:development"
+              "browserTarget": "fcm-angular-fe:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "fmc-angular-fe:build"
+            "browserTarget": "fcm-angular-fe:build"
           }
         },
         "test": {

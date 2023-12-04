@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>it.olly</groupId>
-	<artifactId>fmc-java-be</artifactId>
+	<artifactId>fcm-java-be</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>fmc-java-be</name>
+	<name>fcm-java-be</name>
 	<description>BE part of firebase messaging notification system</description>
 	<properties>
 		<java.version>17</java.version>

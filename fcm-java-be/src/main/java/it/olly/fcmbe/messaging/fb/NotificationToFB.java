@@ -1,4 +1,4 @@
-package it.olly.fmcbe.messaging.fb;
+package it.olly.fcmbe.messaging.fb;
 
 import java.util.Map;
 

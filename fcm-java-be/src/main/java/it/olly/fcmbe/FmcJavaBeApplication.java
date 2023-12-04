@@ -1,4 +1,4 @@
-package it.olly.fmcbe;
+package it.olly.fcmbe;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
